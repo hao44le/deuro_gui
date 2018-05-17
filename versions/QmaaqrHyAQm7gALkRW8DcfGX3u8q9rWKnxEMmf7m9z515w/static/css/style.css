@@ -30,7 +30,7 @@ h5 {font-size:14px;}
 h6 {font-size:12px;}
 
 /* link */
-a {color:#85dede;}
+a {color:#9933ff;}
 a:hover,
 a:active,
 a:visited,
@@ -81,7 +81,7 @@ strong {color:#7a8394;}
 	font-size: 18px;
 	line-height: 32px;
 	text-align:center !important;
-	color:#85dede;
+	color:#9933ff;
 	margin-left:0 !important;
 }
 .branding {background: #2b2e36;}
@@ -153,8 +153,8 @@ ul#side li a {padding:20px 0;}
 }
 /* primary */
 .btn-primary {
-	background-color:#85dede;
-	border-color:#85dede;
+	background-color:#9933ff;
+	border-color:#9933ff;
 	border-radius:3px;
 	padding:13px 20px;
 }
@@ -249,7 +249,7 @@ ul#side li a {padding:20px 0;}
 }
 /* link */
 .btn-link {
-	color:#85dede;
+	color:#9933ff;
 	border-radius:3px;
 	padding:13px 20px;
 }
@@ -327,7 +327,7 @@ thead {border-bottom:2px solid #eaecf0 !important;}
 .nav-sidebar > li > a.active:hover,
 .nav-sidebar > li > a.active:focus {
   color: #fff;
-  background-color: #85dede;
+  background-color: #9933ff;
 }
 .icon-log {
 	width: 22px;

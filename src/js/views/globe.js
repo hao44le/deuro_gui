@@ -12,7 +12,7 @@ class Globe extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      theme: 'light'
+      theme: 'dark'
     }
   }
 

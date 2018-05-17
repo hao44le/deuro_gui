@@ -6594,7 +6594,7 @@ h6 {
 }
 /* link */
 a {
-  color: #85dede;
+  color: #9933ff;
 }
 a:hover,
 a:active,
@@ -6649,7 +6649,7 @@ strong {
   font-size: 18px;
   line-height: 32px;
   text-align: left;
-  color: #85dede;
+  color: #9933ff;
   margin-left: 0 !important;
 }
 .branding {
@@ -6728,8 +6728,8 @@ ul#side li a {
 }
 /* primary */
 .btn-primary {
-  background-color: #85dede;
-  border-color: #85dede;
+  background-color: #9933ff;
+  border-color: #9933ff;
   border-radius: 3px;
   padding: 13px 20px;
 }
@@ -6824,7 +6824,7 @@ ul#side li a {
 }
 /* link */
 .btn-link {
-  color: #85dede;
+  color: #9933ff;
   border-radius: 3px;
   padding: 13px 20px;
 }
@@ -6900,7 +6900,7 @@ thead {
 .nav-sidebar > li > a.active:hover,
 .nav-sidebar > li > a.active:focus {
   color: #fff;
-  background-color: #85dede;
+  background-color: #9933ff;
 }
 .icon-log {
   width: 22px;

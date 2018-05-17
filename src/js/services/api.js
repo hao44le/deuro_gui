@@ -2,7 +2,7 @@ import API from 'ipfs-api'
 import {sortBy} from 'lodash-es'
 import {join} from 'path'
 
-const host = (process.env.NODE_ENV !== 'production') ? 'localhost' : window.location.hostname
+const host = (process.env.NODE_ENV !== 'production') ? 'http://18.221.131.198/' : window.location.hostname
 const port = (process.env.NODE_ENV !== 'production') ? '5001' : (window.location.port || (window.location.protocol === 'https:' ? 443 : 80))
 const localApi = new API(host, port)
 

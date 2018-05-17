@@ -2,7 +2,7 @@ import React from 'react'
 import {toastr} from 'react-redux-toastr'
 import createReactClass from 'create-react-class'
 
-const host = (process.env.NODE_ENV !== 'production') ? '127.0.0.1' : window.location.hostname
+const host = (process.env.NODE_ENV !== 'production') ? '172.31.39.47' : window.location.hostname
 const port = (process.env.NODE_ENV !== 'production') ? '5001' : (window.location.port || (window.location.protocol === 'https:' ? 443 : 80))
 const protocol = (process.env.NODE_ENV !== 'production') ? 'http' : (window.location.protocol === 'https:' ? 'https' : 'http')
 

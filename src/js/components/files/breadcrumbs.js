@@ -74,7 +74,7 @@ class Breadcrumbs extends Component {
 
     if (isEmpty(partsList)) {
       breadcrumbs.unshift(
-        <span key='-1'>IPFS</span>
+        <span key='-1'>Gradient Systems</span>
       )
     } else {
       breadcrumbs.unshift(
@@ -82,7 +82,7 @@ class Breadcrumbs extends Component {
           key='-2'
           path='/'
           history={history}
-          text='IPFS' />
+          text='Gradient Systems' />
       )
     }
 

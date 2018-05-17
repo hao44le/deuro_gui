@@ -4,7 +4,7 @@ import {connect} from 'react-redux'
 import ReduxToastr, {toastr} from 'react-redux-toastr'
 import {DragDropContext} from 'react-dnd'
 import HTML5Backend from 'react-dnd-html5-backend'
-import {Link, withRouter} from 'react-router-dom'
+import {withRouter} from 'react-router-dom'
 import i18n from '../utils/i18n.js'
 import {parse} from '../utils/path'
 import {errors} from '../actions'
@@ -43,12 +43,7 @@ class App extends Component {
               <div className='row'>
                 <div className='col-sm-2 branding'>
                   <div className='row'>
-                    <div className='navbar-header'>
-                      <Link className='navbar-brand col-xs-12' to='/'>
-                        <img src={require('../../img/logo.png')} alt='IPFS' className='img-responsive logo' />
-                        <span className='sr-only'>{i18n.t('IPFS')}</span>
-                      </Link>
-                    </div>
+                    <h1>  Gradient Systems</h1>
                   </div>
                 </div>
                 <div className='col-sm-10'>

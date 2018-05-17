@@ -6,10 +6,7 @@ import NavItem from './nav-item'
 
 const tabs = [
   { title: 'home', icon: 'dot-circle-o' },
-  { title: 'connections', icon: 'globe' },
-  { title: 'files', icon: 'file' },
-  { title: 'DAG', url: '/objects', icon: 'list-alt' },
-  { title: 'config', icon: 'cog' }
+  { title: 'files', icon: 'file' }
 ]
 
 class Navigation extends Component {

@@ -7,7 +7,6 @@ import NotFoundPage from './components/not-found'
 
 /* Legacy pages */
 import HomePage from './pages/home'
-import ConnectionsPage from './pages/connections'
 import ObjectsPage from './pages/objects'
 import BitswapPage from './pages/bitswap'
 import RoutingPage from './pages/routing'
@@ -22,7 +21,6 @@ default (
       <Redirect exact from='/' to='/home' />
       <Redirect exact from='/index.html' to='/home' />
       <Route exact path='/home' component={HomePage} />
-      <Route path='/connections' component={ConnectionsPage} />
       <Route path='/files' component={Files} />
       <Route path='/objects/(.*)?' component={ObjectsPage} />
       <Route path='/bitswap' component={BitswapPage} />
